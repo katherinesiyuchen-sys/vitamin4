@@ -2,7 +2,7 @@
  * Question 1
  */
 
-const question1 = () => document.getElementById("sidebar");
+const question1 = () => { document.getElementById("sidebar");
     const button = document.getElementById("sidebar-button");
 
     button.addEventListener("click", () => {
@@ -14,6 +14,7 @@ const question1 = () => document.getElementById("sidebar");
             button.textContent = ">";
         }
     });
+};
 
 /**
  * Question 2
