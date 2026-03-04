@@ -1,7 +1,7 @@
 /**
  * Question 1
  */
-document.addEventListener("DOMContentLoaded", (event) => {
+
 const question1 = () => document.getElementById("sidebar");
     const button = document.getElementById("sidebar-button");
 
@@ -15,11 +15,10 @@ const question1 = () => document.getElementById("sidebar");
         }
     });
 
-});
-
 /**
  * Question 2
  */
+
 const question2 = () => {
     const addButton = document.getElementById("add-todo");
     const input = document.getElementById("task-name");
@@ -59,13 +58,6 @@ const question3 = () => {
     firstName.addEventListener("input", updateGreeting);
     lastName.addEventListener("input", updateGreeting);
 };
-
-document.addEventListener("DOMContentLoaded", (event) => {
-    question1();
-    question2();
-    question3();
-});
-
 
 /**
  * We need to wait for the HTML file to fully load before running
