@@ -9,9 +9,9 @@ const question1 = () => { document.getElementById("sidebar");
         sidebar.classList.toggle("opened");
 
         if (sidebar.classList.contains("opened")){
-            button.textContent = "<";
+            button.textContent = "‹";
         } else {
-            button.textContent = ">";
+            button.textContent = "›";
         }
     });
 };
